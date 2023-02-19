@@ -20,13 +20,13 @@
 
   nav {
     display: flex;
-    padding: 2% 6%;
+    padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
   }
 
   nav img {
-    width: 150px;
+    width: 7%;
   }
 
   .nav-links {
@@ -38,7 +38,6 @@
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
-    /* position: relative; */
   }
 
   .nav-links ul li a {
@@ -70,9 +69,6 @@
   .text-box {
     width: 100%;
     color: #000;
-    /* position: absolute;
-    top: 136px;
-    left: 97px; */
     line-height: 2em;
     margin: 0 65px;
   }
@@ -85,17 +81,6 @@
     font-size: 19px;
     color: #656161;
   }
-
-  /* .hero-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #000;
-    border: 1px solid #000;
-    padding: 17px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-  } */
   
   /* search section */
 
@@ -103,19 +88,15 @@
     margin: 24px 66px;
   }
 
-  
 
   #iconsearch { 
+    display: inline;
+    margin: -4px;
+    padding: 15px 20px;
     border-radius: 15px 0 0 15px;
-    width: 39px;
-    height: 44px;
-    background: #e2e8e8;
+    background-color: #e2e8e8;
   }
 
-  /* .search-section form {
-    display: inline-block;
-    margin: 30px;
-  } */
 
   input {
     font-size: 20px;
@@ -145,6 +126,7 @@
     color: #fff;
     font-size: 20px;
     font-family: Arial;
+    margin: -2px;
   }
 
   .buttonsearch:hover{
@@ -164,33 +146,29 @@
 
 
   .filters {
-    position: relative;
-    top: -16px;
-    left: 95px;
+    margin: 15px 65px;
     display: flex;
     flex-direction: row;
-    row-gap: 4%;
+    gap: 35px;
     align-items: center;
-    width: 100%;
+    
   }
 
-  .filters .icons {
+  .filtericons  {
     color: #0065FC;
-    border: 1px solid #0065FC;
     background: #d6e6ff;
-    right: 54px;
-    position: relative;
-    top: -1px;
     padding: 17px;
     border-radius: 25px;
-    width: 10%;
-  } */
+    width: 8%;
+    margin: 0px 0px;
+  }
+
 
   .filters .iconwords {
     position: relative;
     bottom: 32px;
     left: 24px;
-  } */
+  } 
 
  
   @media only screen and (max-width: 768px) {
@@ -207,86 +185,81 @@
   .filterbuttonslow {
     width: 15%;
     height: 50px;
-    border: 1px solid #625b5b;
+    border: 2px solid #e2e8e8;
     background: none;
     border-radius: 25px;
     float: left;
+    margin-right: 20px;
   }
 
   .filterbuttonsfam {
     width: 19%;
     height: 50px;
-    border: 1px solid #625b5b;
+    border: 2px solid #e2e8e8;
     background: none;
     border-radius: 25px;
     float: left;
+    margin-right: 20px;
   }
 
   .filterbuttonsrom {
     width: 15%;
     height: 50px;
-    border: 1px solid #625b5b;
+    border: 2px solid #e2e8e8;
     background: none;
     border-radius: 25px;
     float: left;
+    margin-right: 20px;
   }
 
   .filterbuttonspet {
     width: 17%;
     height: 50px;
-    border: 1px solid #625b5b;
+    border: 2px solid #e2e8e8;
     background: none;
     border-radius: 25px;
     float: left;
+    margin-right: 20px;
   }
-
-  .filtericons {
-    width: 8%;
-    left: 0px;
-    top: 0px;
-    position: relative;
-  }
-
-  .infoicon {
-    position: relative;
-    top: -1px;
-  }
-
 
   .filters h1 {
     font-size: 25px;
   }
 
-  .filtercopylow {
+  .filters p{
+    font-size: 18px;
     text-align: center;
+  }
+
+  .filtercopylow {
     top: -36px;
     position: relative;
     left: 15px;
+    
   }
   .filtercopyfam {
-    text-align: center;
     top: -36px;
     position: relative;
     left: 20px;
+    
   }
   .filtercopyrom {
-    text-align: center;
     top: -36px;
     position: relative;
     left: 18px;
+    
   }
   .filtercopypet {
-    text-align: center;
     top: -36px;
     position: relative;
     left: 20px;
+    
   }
 
   /* info section */ 
   .info {
-    position: relative;
-    top: 180px;
-    left: 95px;
+    margin: 0px 65px;
+
   }
 
   .infoicon {
@@ -307,55 +280,63 @@
   }
 
 
+
+
+
+
+
+
+
+
    /* accomaddation section */
 
 .accommodations {
-    position: absolute;
-    top: 442px;
-    background: #F2F2F2;
-    width: 59%;
-    height: 104%;
-    border-radius: 10px;
-    left: 77px;
+  background: #F2F2F2;
+  width: 58%;
+  height: 104%;
+  border-radius: 10px;
+  margin: 0px 59px;
+  padding-top: 1px;
 }
 
-  .container-accommodations {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-  }
 
-  .image-gallery-accommodations { 
-   
-
-  }
-
-  .accommodations-list {
-    list-style: none;
-  }
-
+.container-accommodations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
 
   .flex-container-accommodations {
     display: flex;
     flex-wrap: wrap;
-    height: auto;
+    height: 210%;
     flex-direction: row;
-    row-gap: 10px;
+    row-gap: 31px;
+    margin: 45px;
+    width: 100%;
+  }
+
+  .image-gallery-accommodations {
+    width: 100%;
   }
   
   .flex-item-accommodations-card {
-    width: 27%;
-    height: auto;
+    margin-bottom: 32px;
+    width: 26%;
+    height: 40%;
     padding: 10px;
     float: left;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
     transition: 0.3s;
     border-radius: 30px;
+    margin-right: 29px;
+    background: white;
   }
 
   .accomadation-info {
     color: #000000;
+    line-height: 1.5rem;
   }
 
   h2 {
@@ -384,73 +365,88 @@
     margin: 30px 0 0 30px;
   }
 
+
+
+
+
+
+
+
+
    /* most popular section */
 
   .most {
-    position: absolute;
-    top: 441px;
     background: #F2F2F2;
     width: 25%;
     border-radius: 10px 10px 10px 10px;
-    left: 1058px;
+    float: right;
+    margin-top: -674px;
+    margin-right: 176px;
 }
 
 
 .flex-container-most {
+  margin: 45px 21px;
   display: flex;
   flex-wrap: wrap;
-  height: auto;
+  height: 543px;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 39px;
+}
+
+.flex-container-most .star {
+    display: flex;
+    justify-content: right;
+    margin-top: -23px;
 }
 
 .flex-item-most-card {
-  width: 91%;
-  height: auto;
+  width: 94%;
+  height: 115px;
   padding: 10px;
   float: left;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 30px;
+  background: white;
 }
 
 .flex-item-most-info {
   color: #000000;
-  float: right;
-  position: relative;
-  right: 20px;
-
+  margin: -115px 0 0 166px;
 }
 
-.flex-item-most-info p {
-  line-height: 3rem;
 
+.flex-item-most-info p {
+  line-height: 4rem;
+  font-size: 14px;
 }
 
 .flex-item-most-card img {
-  width: 44%;
-  max-width: 310px;
-  height: 44%;
-  object-fit: cover;
-  border-radius: 10px 0 0 10px;
+    width: 44%;
+    max-width: 400px;
+    height: 115px;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
 }
 
   .container-m{
     width: 100;
   }
 
-  .most ul li {
-    list-style: none;
-  }
+
+
+
+
+
+
+
 
   /* activities section */
 
   .activities{
-    position: absolute;
-    top: 1150px;
-    width: 87%;
-    border-radius: 10px;
-    left: 77px;
+
+    margin: 25px 62px;
 }
 
 .flex-container-act {
@@ -459,17 +455,25 @@
 
 }
 
+
 .flex-item-act-card {
   width: 90%;
   height: 100%;
-  padding: 10px;
   float: left;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 30px;
 }
 
-.flex-item-act-card-1 {
+/* .flex-container-act:nth-child(2) {
+  background: red;
+}
+
+.flex-container-act:nth-child(6) {
+  background: pink;
+} */
+
+/* .flex-item-act-card-1 {
   width: 90%;
   height: 100%;
   padding: 10px;
@@ -477,15 +481,16 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 30px;
-}
+} */
 
 .flex-item-act-info {
   color: #000000;
 }
 
-.flex-item-act-1 {
-  
+.flex-item-act-card:nth-child(3) {
+  background: red;
 }
+
 
 .flex-item-act-1 img{
   width: 25%;
@@ -521,10 +526,6 @@
   height: 424px;
   object-fit: cover;
   border-radius: 10px;
-  flex: 4;
-}
-
-.flex-item-act-5 img{
   width: 45%;
   /* max-width: 310px; */
   height: 424px;
@@ -541,6 +542,7 @@
   border-radius: 10px;
   flex: 6;
 }
+  
 
 .flex-item-act-card img {
   width: 100%;
@@ -568,9 +570,6 @@
   margin: 10px;
 }
 
-
-
-
    /* images */
 
   .image-gallery {
@@ -579,18 +578,15 @@
     justify-content: center;
     gap: 10px;
   }
-  
-  .image-gallery > li {
-    flex-basis: 350px; 
-  }
-  
-  .image-gallery li img {
-    object-fit: cover;
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    border-radius: 5px;
-  }
+
+ 
+
+
+
+
+
+
+
 
  /* footer section */
 
