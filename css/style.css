@@ -436,17 +436,15 @@
 
 
 
-
-
-
-
-
-
   /* activities section */
 
   .activities{
 
     margin: 25px 62px;
+}
+
+.activities h1 {
+  margin: 20px 10px;
 }
 
 .flex-container-act {
@@ -458,19 +456,27 @@
 
 }
 
+.flex-item-act-info h2 {
+
+  margin: 10px;
+
+}
+
 .cards2_3 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* height: 100px; */
+    width: 22%;
 }
 
 .cards2_3 .flex-item-act-card {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  height: 210px;
-  margin-bottom: 13px;
+    margin-right: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 210px;
+    margin-bottom: 13px;
+    width: 91%;
 
 }
 
@@ -483,12 +489,35 @@
 
 }
 
+.cards2_3 .pomegues {
+    margin-bottom: 37px;
+    height: 250px;
+    width: 90%;
+
+}
+
+.cards2_3 .pomegues img {
+    height: 208px;
+}
+
+.cards2_3 .frioul {
+    height: 139px;
+    width: 91%;
+
+}
+
+.cards2_3 .frioul img {
+  height: 95px;
+}
+
+
+
 
 .cards5_6 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  /* height: 100px; */
+  width: 23%;
 
 }
 
@@ -508,6 +537,29 @@
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 
+}
+
+
+
+.cards5_6 .notre{
+  margin-bottom: 37px;
+  height: 180px;
+  width: 91%;
+
+}
+
+.cards5_6 .notre img {
+  height: 138px;
+}
+
+.cards5_6 .longchamp  {
+  height: 210px;
+  width: 90%;
+
+}
+
+.cards5_6 .longchamp img {
+  height: 164px;
 }
 
 
@@ -630,11 +682,12 @@
     background: #F2F2F2;
     display: flex;
     position: relative;
-    top: 1527px;
+    top: 50px;
   }
   
   .footer-col {
     flex: 1;
+    margin-left: 50px;
     
   }
 
