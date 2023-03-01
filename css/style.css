@@ -20,30 +20,84 @@
         display: block;
     }
   }
+  div {
+    box-sizing: border-box;
+}
 
-  
-  /* header section */
+body {
+    margin: 0px;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
 
-  .header {
-  }
+main,
+header {
+    margin: 0px 30px 0px 30px;
+}
 
-  h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 20px;
-  }
 
-  /* nav section */
+ul,
+ol {
+    list-style: none;
+    display: inline-block;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+  /* ------------header navigation----------------- */
+
+  #logo {
+    position: relative;
+    top: 20px;
+}
 
   .nav-section {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-section img {
+    width: 100px;
+}
+
+#navigation ul {
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+#navigation ul li {
+    float: left;
+}
+
+#navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+#navigation .selected {
+    border-top: 1px solid #0065fc;
+    color: #0065fc;
+}
+
+
+  /* nav {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
   }
 
-  .nav-section img {
+  nav img {
     width: 7%;
   }
 
@@ -80,7 +134,7 @@
 
   .nav-links ul li:hover::after {
     width: 100%;
-  }
+  } */
 
   /* text box section */
 
@@ -682,9 +736,58 @@
 
   /*--------------------------------------MOBILE VERSION-------------------------------------*/
 
- 
+/* mobile view styling */
+@media all and (max-width: 768px) {
 
-@media only screen and (max-width: 767px) {   
+  #Accommodation-list,
+  #popular-section {
+      width: 100% !important;
+  }
+}
+
+@media all and (max-width: 767px) {
+  main,header {
+      margin: 0px !important;
+  }
+
+  #navigation ul li {
+      float: left;
+      width: 50%;
+  }
+
+  #navigation .selected {
+      border-top: none;
+      border-bottom: 3px solid #0065fc;
+  }
+
+  #navigation .unselected {
+      border-bottom: 3px solid #f2f2f2;
+  }
+
+  #navigation a:hover {
+      text-decoration: none;
+  }
+
+  #navigation {
+      width: 100%;
+      min-width: 375px;
+  }
+
+  .nav-section {
+      justify-content: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 767px) {   
 
     * {
       margin:0;
@@ -720,11 +823,11 @@
   
     /* nav section */
   
-    .nav-section {
-      justify-content: center;
+    nav {
+      flex-direction: column;
     }
   
-    .nav-section img {
+    nav img {
       width: 7%;
     }
   
