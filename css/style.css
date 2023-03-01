@@ -136,7 +136,7 @@ h1 {
     width: 100%;
   } */
 
-  /* text box section */
+  /* ------------------text box section------------------ */
 
   .text-box {
     display: flex;
@@ -159,7 +159,7 @@ h1 {
     line-height: 1em;
   }
   
-  /* search section */
+  /* -----------------search section------------------- */
 
   .search-section {
     display: flex;
@@ -218,7 +218,7 @@ h1 {
     display: none;
   }
 
-  /* fliter section */
+  /* --------------fliter section------------------ */
 
   p {
     font-family: "Raleway", sans-serif;
@@ -332,7 +332,7 @@ h1 {
     
   }
 
-  /* info section */ 
+  /* -----------info section------------- */ 
   .info {
     margin-top: 25px;
     margin-left: 50px;
@@ -357,7 +357,7 @@ h1 {
     left: 34px;
   }
 
-   /* accomaddation section */
+   /* ----------------accomaddation section-------------- */
 
   .accommodations {
     background: #F2F2F2;
@@ -395,7 +395,7 @@ h1 {
   .flex-item-accommodations-card {
     margin-bottom: 32px;
     width: 26%;
-    height: 40%;
+    height: 44%;
     padding: 10px;
     float: left;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -440,7 +440,7 @@ h1 {
     padding-bottom: 30px;
   }
 
-   /* most popular section */
+   /* --------------most popular section------------- */
 
   .most {
     background: #F2F2F2;
@@ -470,7 +470,7 @@ h1 {
 
   .flex-item-most-card {
     width: 94%;
-    height: 115px;
+    height: 136px;
     padding: 10px;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -504,7 +504,7 @@ h1 {
 
 
 
-  /* activities section */
+  /* --------------activities section--------------- */
 
   .activities{
 
