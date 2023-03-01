@@ -1055,6 +1055,7 @@ h1 {
   
     /* info section */ 
     .info {
+      width: 100%;
       margin-top: 25px;
       margin-left: 50px;
       margin-right: 50px;
