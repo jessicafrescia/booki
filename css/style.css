@@ -28,6 +28,8 @@ body {
     margin: 0px;
     font-family: 'Raleway';
     font-size: 15px;
+    width: 100%;
+    align-items: center;
 }
 
 main,
@@ -751,6 +753,8 @@ h1 {
 }
 
 @media all and (max-width: 767px) {
+
+
   main,header {
       margin: 0px !important;
   }
@@ -775,11 +779,16 @@ h1 {
 
   #navigation {
       width: 100%;
-      min-width: 375px;
+      
   }
 
   .nav-section {
-      justify-content: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #logo {
+    padding: 30px;
   }
 }
 
@@ -867,8 +876,10 @@ h1 {
     /* text box section */
   
     .text-box {
-      margin-top: 10px;
-      margin-left: 25px;
+      width: 80%;
+      margin-left: 21px;
+      margin-top: 0px;
+      margin-right: 0px;
       
     }
   
@@ -885,7 +896,7 @@ h1 {
     /* search section */
   
     .search-section {
-      width: 115%;
+      
       margin-left: 25px;
     }
   
@@ -907,7 +918,7 @@ h1 {
     }
   
     input[type="text"] {
-      width: 340px;
+      width: 243px;
       height: 45px;
       border: 1px solid #F2F2F2;
       outline: none;
@@ -922,17 +933,17 @@ h1 {
   
     .buttonsearch-mobile { 
       display: inline;
-      border-radius: 0 15px 15px 0;
-    width: 100px;
-    height: 46px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background: #0065FC;
-    color: #fff;
-    font-size: 20px;
-    font-family: Arial;
-    margin: -2px;
+      border-radius: 15px 15px 15px 15px;
+      width: 60px;
+      height: 46px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background: #0065FC;
+      color: #fff;
+      font-size: 20px;
+      font-family: Arial;
+      margin: -2px;
     }
 
     .buttonsearch-mobile:hover{
@@ -973,14 +984,14 @@ h1 {
   
   
     .container {
-      width: 299%;
+      width: 100%;
       display: flex;
       flex-direction: column;
     }
     
   
     .filterbuttonslow {
-      width: 15%;
+      width: 46%;
       height: 50px;
       border: 2px solid #e2e8e8;
       background: none;
@@ -990,7 +1001,7 @@ h1 {
     }
   
     .filterbuttonsfam {
-      width: 19%;
+      width: 55%;
       height: 50px;
       border: 2px solid #e2e8e8;
       background: none;
@@ -1000,7 +1011,7 @@ h1 {
     }
   
     .filterbuttonsrom {
-      width: 15%;
+      width: 45%;
       height: 50px;
       border: 2px solid #e2e8e8;
       background: none;
@@ -1010,7 +1021,7 @@ h1 {
     }
   
     .filterbuttonspet {
-      width: 17%;
+      width: 52%;
       height: 50px;
       border: 2px solid #e2e8e8;
       background: none;
@@ -1055,19 +1066,19 @@ h1 {
   
     /* info section */ 
     .info {
-      width: 100%;
+      width: 70%;
       margin-top: 25px;
-      margin-left: 50px;
-      margin-right: 50px;
+      margin-left: 25px;
+      margin-right: 0px;
   
     }
   
     .infoicon {
       border: 0.5px solid #625b5b;
-      border-radius: 25px;
+      border-radius: 15px;
       color: #0065FC;
-      width: 1%;
-      padding: 4px;
+      width: 5%;
+      padding: 3px;
       text-align: center;
       position: relative;
       top: 0px;
@@ -1086,14 +1097,17 @@ h1 {
       flex-direction: column;
       flex-wrap: wrap;
       order: 2;
-      width: 100%;
+      width: 90%;
       background: none;
       height: 104%;
       border-radius: 10px;
-      margin-top: 25px;
-      margin-left: 50px;
-      margin-right: 50px;
-      padding-top: 1px;
+      margin-left: 15px;
+      margin-top: 0px;
+      
+    }
+
+    .accommodations h1 {
+      font-size: 1.5em;
     }
   
   
@@ -1109,9 +1123,8 @@ h1 {
       flex-wrap: wrap;
       height: 210%;
       flex-direction: column;
-      row-gap: 31px;
-      margin: 45px;
-      width: 100%;
+      margin-left: 25px;
+      
     }
   
     .image-gallery-accommodations {
@@ -1166,7 +1179,8 @@ h1 {
     }
   
     .showmore {
-      padding-bottom: 30px;
+      width: 50%;
+      padding-bottom: 0px;
     }
   
      /* most popular section */
@@ -1178,9 +1192,10 @@ h1 {
       order: 1;
       width: 100%;
       background: #F2F2F2;
-      border-radius: 10px 10px 10px 10px;
+      border-radius: 0px;
       margin-top: 32px;
-      margin-right: -50px;
+      float: none;
+      margin-left: 0px;
     }
   
   
@@ -1191,6 +1206,7 @@ h1 {
       height: 635px;
       flex-direction: column;
       row-gap: 39px;
+      width: 88%;
     }
   
     .flex-container-most .star {
@@ -1241,8 +1257,8 @@ h1 {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      width: 120%;
-      margin: 25px 62px;
+      width: 90%;
+      margin-left: 25px;
   }
   
     .activities h1 {
@@ -1253,7 +1269,7 @@ h1 {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        width: 76%;
+        width: 100%;
         gap: 40px;
   
     }
@@ -1450,17 +1466,21 @@ h1 {
     }
     
     .footer-col {
-      flex: 1;
-      margin-left: 50px;
+      margin-left: 25px;
       
     }
   
+
+    .footer ul {
+
+    }
   
     .footer ul li {
       list-style: none;
       text-align: left;
       line-height: 1.5rem;
-      margin: 25px;
+      /* margin: 25px; */
+     
      
     }
   
