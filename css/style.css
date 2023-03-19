@@ -1662,18 +1662,21 @@ h1 {
     .container {
       width: 100%;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
+      row-gap: 16px;
     }
     
   
     .filterbuttonslow {
-      width: 46%;
+      width: 38%;
       height: 50px;
       border: 2px solid #e2e8e8;
       background: none;
       border-radius: 25px;
       float: left;
       margin-right: 20px;
+      order:1;
     }
   
     .filterbuttonsfam {
@@ -1684,16 +1687,18 @@ h1 {
       border-radius: 25px;
       float: left;
       margin-right: 20px;
+      order:3;
     }
   
     .filterbuttonsrom {
-      width: 45%;
+      width: 41%;
       height: 50px;
       border: 2px solid #e2e8e8;
       background: none;
       border-radius: 25px;
       float: left;
       margin-right: 20px;
+      order:2;
     }
   
     .filterbuttonspet {
@@ -1704,6 +1709,7 @@ h1 {
       border-radius: 25px;
       float: left;
       margin-right: 20px;
+      order:4;
     }
   
     .filters h1 {
@@ -1718,9 +1724,9 @@ h1 {
     .filtercopylow {
       top: -36px;
       position: relative;
-      left: 15px;
-      
+      left: 19px;
     }
+
     .filtercopyfam {
       top: -36px;
       position: relative;
