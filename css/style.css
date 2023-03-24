@@ -325,8 +325,8 @@ h1 {
 
   .accommodations {
     background: #F2F2F2;
-    width: 66%;
-    height: 104%;
+    width: 65%;
+    /* height: 104%; */
     border-radius: 10px;
     margin-top: 25px;
     margin-left: 50px;
@@ -345,11 +345,11 @@ h1 {
   .flex-container-accommodations {
     display: flex;
     flex-wrap: wrap;
-    height: 210%;
+    /* height: 210%; */
     flex-direction: row;
     row-gap: 31px;
     margin: 45px;
-    width: 104%;
+    /* width: 104%; */
   }
 
   .image-gallery-accommodations {
@@ -422,9 +422,9 @@ h1 {
     margin: 45px 21px;
     display: flex;
     flex-wrap: wrap;
-    height: 685px;
+    /* height: 685px; */
     flex-direction: column;
-    row-gap: 39px;
+    row-gap: 66px;
   }
 
   .flex-container-most .star {
@@ -482,8 +482,8 @@ h1 {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      width: 114%;
-      gap: 40px;
+      width: 100%;
+      gap: 47px;
 
   }
 
@@ -1861,7 +1861,7 @@ h1 {
     }
   
     .showmore {
-      width: 50%;
+      width: 55%;
       padding-bottom: 0px;
     }
 
