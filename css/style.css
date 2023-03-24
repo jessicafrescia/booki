@@ -1058,12 +1058,12 @@ h1 {
   .accommodations {
     background: #F2F2F2;
     width: 56%;
-    height: 54%;
+    /* height: 54%; */
     border-radius: 10px;
-    margin-top: 25px;
+    /* margin-top: 25px;
     margin-left: 50px;
     margin-right: 50px;
-    padding-top: 1px;
+    padding-top: 1px; */
   }
 
 
@@ -1142,10 +1142,10 @@ h1 {
   .most {
     background: #F2F2F2;
     width: 25%;
-    height: 946px;
+    height: 949px;
     border-radius: 10px 10px 10px 10px;
-    float: right;
-    top: -160px;
+    /* float: right; */
+    top: -162px;
     position: relative;
   }
 
@@ -1154,9 +1154,9 @@ h1 {
     margin: 25px 21px;
     display: flex;
     flex-wrap: wrap;
-    height: 880px;
+    /* height: 880px; */
     flex-direction: column;
-    row-gap: 37px;
+    row-gap: 32px;
   }
 
   .flex-container-most .star {
@@ -1213,6 +1213,7 @@ h1 {
 
   .activities h1 {
     margin: 20px 10px;
+    padding-bottom: 70px;
   }
 
   .flex-container-act {
@@ -1227,7 +1228,7 @@ h1 {
   }
 
   .flex-item-act-info h2 {
-    margin: 10px;
+    /* margin: 10px; */
   }
 
   .cards2_3 {
